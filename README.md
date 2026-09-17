@@ -40,6 +40,10 @@ source venv-tpmesh/bin/activate
 ```bash
 pip install -r requirements.txt
 ```
+or
+```bash
+pip install libigl meshio "numpy==1.26.4" polyscope PyMCubes
+```
 
 * [numpy](https://numpy.org/) – for numerical operations
 * [libigl](https://pypi.org/project/libigl/) – for mesh cleaning and processing
