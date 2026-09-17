@@ -1,6 +1,6 @@
 libigl
 meshio
-numpy
+numpy==1.26.4
 
 # Viewers
 polyscope
