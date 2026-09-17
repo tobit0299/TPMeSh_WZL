@@ -2,6 +2,21 @@
 
 Triply Periodic Meshing for Triply Periodic Minimal Surfaces
 
+## WSL2 Ubuntu-24.04 prerequisites
+
+#### Step 1: Update your system
+Before installing any new packages, make sure your local package index is up to date. Open your WSL Ubuntu terminal and run:
+```bash
+sudo apt update && sudo apt upgrade -y
+```
+
+#### Step 2: Install CGAL and Build Tools
+Install CGAL along with essential development tools (build-essential for g++ and cmake for project configuration):
+```bash
+sudo apt install -y build-essential cmake libcgal-dev
+```
+Note: libcgal-dev contains the headers and CMake configuration files needed to compile your programs.
+
 ## Building
 
 #### Dependencies
