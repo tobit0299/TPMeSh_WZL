@@ -17,6 +17,17 @@ sudo apt install -y build-essential cmake libcgal-dev
 ```
 Note: libcgal-dev contains the headers and CMake configuration files needed to compile your programs.
 
+#### Step 3: Install pip
+```bash
+sudo apt install python3-pip
+```
+
+## Create an virtual Environment for the project
+```bash
+python3 -m venv venv-tpmesh
+source venv/bin/activate
+```
+
 ## Building
 
 #### Dependencies
